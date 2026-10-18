@@ -1,0 +1,19 @@
+---
+title: "Buscador de variables"
+description: "Panel armonizado. Convención: valores más altos indican más del concepto medido."
+---
+
+```{ojs}
+//| echo: false
+vars = FileAttachment("../data/variables.csv").csv()
+viewof q = Inputs.search(vars, {placeholder: "aprobación, pid, voto…", label: "Buscar"})
+viewof tema = Inputs.select(["Todos", ...new Set(vars.map(d => d.tema))], {label: "Tema"})
+Inputs.table(q.filter(d => tema === "Todos" || d.tema === tema), {
+  columns: ["variable", "etiqueta", "tema", "cobertura"],
+  header: {variable: "Variable", etiqueta: "Etiqueta", tema: "Tema", cobertura: "Cobertura (olas)"}
+})
+```
+
+::: {.callout-note}
+`data/variables.csv` se puede generar desde `rENEM::enem_codebook()` para que el sitio y el paquete usen la misma fuente.
+:::

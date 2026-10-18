@@ -1,0 +1,22 @@
+---
+title: "ENEM 2000"
+subtitle: "Elección presidencial · Transversal · CSES M1"
+---
+
+## Datos y documentación
+
+::: {.dv-ola data-anio="2000"}
+:::
+
+## Cómo citar esta ola
+
+::: {.cita}
+Beltrán, Ulises, (2000), Estudio Nacional Electoral de México (CIDE-CSES) 2000, Ciudad de México: Centro de Investigación y Docencia Económicas.
+:::
+
+## Desde R
+
+```r
+rENEM::enem_design(2000)
+datos <- rENEM::enem_download(2000, format = "csv")
+```

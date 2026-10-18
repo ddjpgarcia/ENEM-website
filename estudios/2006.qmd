@@ -1,0 +1,22 @@
+---
+title: "ENEM 2006"
+subtitle: "Elección presidencial · Transversal · CSES M3"
+---
+
+## Datos y documentación
+
+::: {.dv-ola data-anio="2006"}
+:::
+
+## Cómo citar esta ola
+
+::: {.cita}
+Beltrán, Ulises, (2006), Estudio Nacional Electoral de México (CIDE-CSES) 2006, Ciudad de México: Centro de Investigación y Docencia Económicas.
+:::
+
+## Desde R
+
+```r
+rENEM::enem_design(2006)
+datos <- rENEM::enem_download(2006, format = "csv")
+```

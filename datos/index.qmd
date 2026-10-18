@@ -1,0 +1,34 @@
+---
+title: "Descargar datos"
+description: "Las bases del ENEM se publican en Harvard Dataverse. Cada ola tiene su propio DOI."
+---
+
+Los datos son gratuitos para uso académico y no comercial. Al descargar, Harvard Dataverse te pedirá llenar un breve registro (nombre, institución y uso previsto) y aceptar los términos de uso.
+
+## Datos por ola
+
+::: {#dv-tabla .dv-tabla}
+Cargando…
+:::
+
+::: {#dv-coleccion}
+:::
+
+## Qué incluye cada ola
+
+| Archivo | Formato |
+|---|---|
+| Base de datos | `.dta` · `.csv` · `.sav` |
+| Cuestionario | `.pdf` |
+| Libro de códigos | `.pdf` |
+| Nota metodológica | `.pdf` |
+
+::: {.callout-tip}
+## Desde R
+```r
+# remotes::install_github("ddjpgarcia/rENEM")
+rENEM::enem_download(2024, format = "csv")
+```
+:::
+
+Antes de usar los datos, revisa los [términos de uso](uso.qmd) y la forma de [citar cada ola](../citar/index.qmd).

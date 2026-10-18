@@ -1,0 +1,43 @@
+---
+title: "About ENEM"
+---
+
+Since 1997, the Mexican National Electoral Study (ENEM-CIDE) has published information on the behavior of the public and voters in the federal elections held every three years in Mexico. The information is obtained through surveys conducted with the highest methodological quality. All studies include a *Comparative Study of Electoral Systems* (CSES) module that links the project to a wide range of electoral studies around the world. ENEM's mission is to provide information that meets the needs of researchers, professors, students, journalists and anyone interested in better understanding the results of each election.
+
+The full history of the CIDE-CSES project and its CSES modules is available [in Spanish](../../sobre/proyecto-cide-cses.html).
+
+## Team
+
+::: {.equipo}
+
+::: {.persona}
+![](../../assets/equipo/beltran.jpg){fig-alt="Foto de Ulises Beltrán"}
+
+**Ulises Beltrán**<br>CIDE · BGC<br>[bgc.com.mx](https://www.bgc.com.mx/)
+:::
+
+::: {.persona}
+![](../../assets/equipo/castro.jpg){fig-alt="Foto de Rodrigo Castro Cornejo"}
+
+**Rodrigo Castro Cornejo**<br>UMass Lowell · Center for Public Opinion<br>[Sitio personal](https://www.rodrigocastrocornejo.com/)
+:::
+
+::: {.persona}
+![](../../assets/equipo/ley.jpg){fig-alt="Foto de Sandra Ley"}
+
+**Sandra Ley**<br>Tecnológico de Monterrey · School of Social Sciences and Government<br>[Personal website](https://sandraley.net/)
+:::
+
+::: {.persona}
+![](../../assets/equipo/altamirano.jpg){fig-alt="Foto de Melina Altamirano"}
+
+**Melina Altamirano**<br>El Colegio de México · Centro de Estudios Internacionales<br>[Sitio personal](https://melinaaltamirano.com/)
+:::
+
+::: {.persona}
+![](../../assets/equipo/singer.jpg){fig-alt="Foto de Matthew Singer"}
+
+**Matthew Singer**<br>University of Connecticut · Ciencia Política<br>[Perfil UConn](https://polisci.uconn.edu/person/matthew-singer/)
+:::
+
+:::

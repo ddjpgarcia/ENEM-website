@@ -1,0 +1,11 @@
+year,election,design,sample_design,institution,cses_module
+1997,Midterm,Cross-section,Official,CIDE,M1
+2000,Presidential,Cross-section,Official,CIDE,M1
+2003,Midterm,Cross-section,Official,CIDE,M2
+2006,Presidential,Cross-section,Official,CIDE,M3
+2009,Midterm,Cross-section,Official,CIDE,M3
+2012,Presidential,Cross-section,Inferred,CIDE,M4
+2015,Midterm,National + governor-election states,Inferred,CIDE,M4
+2018,Presidential,"Panel, 4 waves",Official,CIDE (campo: Ipsos),M5
+2021,Midterm,Cross-section,Inferred,CIDE,M6 (pilot)
+2024,Presidential,Cross-section,Inferred,UMass Lowell · COLMEX · UConn,M5 and M6

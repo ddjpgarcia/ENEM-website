@@ -1,0 +1,15 @@
+---
+title: "Preguntas frecuentes"
+---
+
+## ¿Qué identificador uso para unir bases?
+`folio` solo es único en 2024. Usa `id_ola` dentro de cada ola o `id_panel` en el panel armonizado.
+
+## ¿Puedo comparar variables entre olas?
+Sí, con el [panel armonizado](../variables/index.qmd). No todas las variables existen en las 10 olas.
+
+## ¿Qué significa "diseño inferido"?
+Que el diseño muestral se reconstruyó a partir del cuestionario y los ponderadores porque no hay documentación técnica oficial.
+
+## ¿Por qué tengo que llenar un formulario antes de descargar?
+Harvard Dataverse pide un registro breve (libro de visitas) para que el equipo sepa quién usa los datos y con qué fin. No tiene costo.

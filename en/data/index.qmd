@@ -1,0 +1,17 @@
+---
+title: "Download data"
+description: "ENEM datasets are published on Harvard Dataverse. Each wave has its own DOI."
+---
+
+Data are free for academic, non-commercial use. Harvard Dataverse will ask you to fill a short guestbook (name, institution, intended use) and accept the terms of use before downloading.
+
+::: {#dv-tabla .dv-tabla data-lang="en"}
+Loading…
+:::
+
+::: {#dv-coleccion data-lang="en"}
+:::
+
+```r
+rENEM::enem_download(2024, format = "csv")
+```

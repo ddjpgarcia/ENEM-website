@@ -1,0 +1,22 @@
+---
+title: "ENEM 2009"
+subtitle: "Elección intermedia · Transversal · CSES M3"
+---
+
+## Datos y documentación
+
+::: {.dv-ola data-anio="2009"}
+:::
+
+## Cómo citar esta ola
+
+::: {.cita}
+Beltrán, Ulises, (2009), Estudio Nacional Electoral de México (CIDE-CSES) 2009, Ciudad de México: Centro de Investigación y Docencia Económicas.
+:::
+
+## Desde R
+
+```r
+rENEM::enem_design(2009)
+datos <- rENEM::enem_download(2009, format = "csv")
+```

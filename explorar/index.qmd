@@ -1,0 +1,35 @@
+---
+title: "Explorar las variables principales"
+description: "Tendencias ponderadas del panel armonizado, 1997–2024. Los gráficos usan agregados precalculados, no microdatos."
+page-layout: full
+toc: false
+---
+
+<!--
+OPCIÓN A (activa): Shinylive. La app vive en explorar/app/ y se genera en tu computadora:
+  1. Rscript scripts/agregados.R          -> explorar/app-src/agregados.csv
+  2. shinylive::export("explorar/app-src", "explorar/app")
+  3. git add explorar/app && git push
+-->
+```{=html}
+<iframe src="app/index.html" title="Dashboard ENEM" style="width:100%;height:820px;border:1px solid #D5DDD8;border-radius:10px" loading="lazy"></iframe>
+```
+
+<!--
+OPCIÓN B: Tableau Public. Publica el libro, desactiva "Allow access / download",
+y pega aquí el código de "Share > Embed Code":
+
+```{=html}
+<div class='tableauPlaceholder' ...>...</div>
+```
+
+OPCIÓN C: Power BI "Publicar en la web" (requiere Pro/PPU y que el admin lo habilite):
+
+```{=html}
+<iframe title="ENEM" width="100%" height="820" src="https://app.powerbi.com/view?r=CODIGO" frameborder="0" allowFullScreen="true"></iframe>
+```
+-->
+
+::: {.callout-note}
+Los datos del dashboard son promedios y porcentajes ponderados por ola y grupo. Para trabajar con los microdatos, [regístrate y descarga las bases](../datos/index.qmd).
+:::

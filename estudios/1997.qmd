@@ -1,0 +1,22 @@
+---
+title: "ENEM 1997"
+subtitle: "Elección intermedia · Transversal · CSES M1"
+---
+
+## Datos y documentación
+
+::: {.dv-ola data-anio="1997"}
+:::
+
+## Cómo citar esta ola
+
+::: {.cita}
+Beltrán, Ulises, (1997), Estudio Nacional Electoral de México (CIDE-CSES) 1997, Ciudad de México: Centro de Investigación y Docencia Económicas.
+:::
+
+## Desde R
+
+```r
+rENEM::enem_design(1997)
+datos <- rENEM::enem_download(1997, format = "csv")
+```

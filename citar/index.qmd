@@ -1,0 +1,80 @@
+---
+title: "Cómo citar el ENEM"
+description: "Cita general del proyecto y cita específica para cada ola."
+---
+
+## Cita general
+
+::: {.cita}
+Beltrán, Ulises, Rodrigo Castro Cornejo, Melina Altamirano y Matthew Singer (2024), Estudio Nacional Electoral de México (UMASS-CSES) 2024, Lowell: Center for Public Opinion / University of Massachusetts Lowell.
+:::
+
+**How to cite:**
+
+::: {.cita}
+Beltrán, Ulises, Rodrigo Castro Cornejo, Melina Altamirano, and Matthew Singer (2024), Mexican Election Study (UMASS-CSES) 2024, Lowell: Center for Public Opinion / University of Massachusetts Lowell.
+:::
+
+## Cita por año
+
+Si usas una ola específica, cita esa ola:
+
+### 1997 {#cita-1997}
+
+::: {.cita}
+Beltrán, Ulises, (1997), Estudio Nacional Electoral de México (CIDE-CSES) 1997, Ciudad de México: Centro de Investigación y Docencia Económicas.
+:::
+
+### 2000 {#cita-2000}
+
+::: {.cita}
+Beltrán, Ulises, (2000), Estudio Nacional Electoral de México (CIDE-CSES) 2000, Ciudad de México: Centro de Investigación y Docencia Económicas.
+:::
+
+### 2003 {#cita-2003}
+
+::: {.cita}
+Beltrán, Ulises, (2003), Estudio Nacional Electoral de México (CIDE-CSES) 2003, Ciudad de México: Centro de Investigación y Docencia Económicas.
+:::
+
+### 2006 {#cita-2006}
+
+::: {.cita}
+Beltrán, Ulises, (2006), Estudio Nacional Electoral de México (CIDE-CSES) 2006, Ciudad de México: Centro de Investigación y Docencia Económicas.
+:::
+
+### 2009 {#cita-2009}
+
+::: {.cita}
+Beltrán, Ulises, (2009), Estudio Nacional Electoral de México (CIDE-CSES) 2009, Ciudad de México: Centro de Investigación y Docencia Económicas.
+:::
+
+### 2012 {#cita-2012}
+
+::: {.cita}
+Beltrán, Ulises y Rosario Aguilar (2012), Estudio Nacional Electoral de México (CIDE-CSES) 2012, Ciudad de México: Centro de Investigación y Docencia Económicas.
+:::
+
+### 2015 {#cita-2015}
+
+::: {.cita}
+Beltrán, Ulises y Rosario Aguilar (2015), Estudio Nacional Electoral de México (CIDE-CSES) 2015, Ciudad de México: Centro de Investigación y Docencia Económicas.
+:::
+
+### 2018 {#cita-2018}
+
+::: {.cita}
+Beltrán, Ulises, Sandra Ley y Rodrigo Castro Cornejo (2020), Estudio Nacional Electoral de México (CIDE-CSES) 2018, Ciudad de México: Centro de Investigación y Docencia Económicas.
+:::
+
+### 2021 {#cita-2021}
+
+::: {.cita}
+Beltrán, Ulises, Rodrigo Castro Cornejo y Sandra Ley (2021), Estudio Nacional Electoral de México (CIDE-CSES) 2021, Ciudad de México: Centro de Investigación y Docencia Económicas.
+:::
+
+### 2024 {#cita-2024}
+
+::: {.cita}
+Beltrán, Ulises, Rodrigo Castro Cornejo, Melina Altamirano y Matthew Singer (2024), Estudio Nacional Electoral de México (UMASS-CSES) 2024, Lowell: Center for Public Opinion / University of Massachusetts Lowell.
+:::

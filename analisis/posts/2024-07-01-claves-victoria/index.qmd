@@ -1,0 +1,10 @@
+---
+title: "Las claves de la victoria: ¿ideología, programas sociales o aprobación presidencial?"
+date: 2024-07-01
+categories: [Nexos, "2024"]
+description: "Artículo publicado en el Taller de datos de Nexos con datos del ENEM."
+---
+
+Entrada de ejemplo que enlaza a un texto externo. Fecha por confirmar.
+
+[Leer en Nexos](https://datos.nexos.com.mx/las-claves-de-la-victoria-ideologia-programas-sociales-o-aprobacion-presidencial/){.btn .btn-outline-primary}

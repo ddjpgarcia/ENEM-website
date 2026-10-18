@@ -1,0 +1,11 @@
+anio,eleccion,formato,diseno,institucion,modulo_cses
+1997,Intermedia,Transversal,Oficial,CIDE,M1
+2000,Presidencial,Transversal,Oficial,CIDE,M1
+2003,Intermedia,Transversal,Oficial,CIDE,M2
+2006,Presidencial,Transversal,Oficial,CIDE,M3
+2009,Intermedia,Transversal,Oficial,CIDE,M3
+2012,Presidencial,Transversal,Inferido,CIDE,M4
+2015,Intermedia,Nacional + estados con elección de gobernador,Inferido,CIDE,M4
+2018,Presidencial,"Panel, 4 mediciones",Oficial,CIDE (campo: Ipsos),M5
+2021,Intermedia,Transversal,Inferido,CIDE,M6 (piloto)
+2024,Presidencial,Transversal,Inferido,UMass Lowell · COLMEX · UConn,M5 y M6

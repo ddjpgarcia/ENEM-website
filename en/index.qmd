@@ -1,0 +1,33 @@
+---
+title: "Mexican Election Study"
+subtitle: "Post-election surveys · 1997–2024"
+toc: false
+page-layout: full
+---
+
+::: {.portada}
+Since 1997, the Mexican National Electoral Study (ENEM-CIDE) has published information on the behavior of the public and voters in the federal elections held every three years in Mexico. The information is obtained through surveys conducted with the highest methodological quality. All studies include a *Comparative Study of Electoral Systems* (CSES) module that links the project to a wide range of electoral studies around the world. ENEM's mission is to provide information that meets the needs of researchers, professors, students, journalists and anyone interested in better understanding the results of each election.
+:::
+
+[Download data](data/index.qmd){.btn .btn-primary} [About ENEM](about/index.qmd){.btn .btn-outline-primary}
+
+```{=html}
+<div class="olas" aria-label="Olas del ENEM">
+  <a class="ola" href="../estudios/1997.html"><span class="punto"></span><b>1997</b><small>Midterm</small></a>
+  <a class="ola pres" href="../estudios/2000.html"><span class="punto"></span><b>2000</b><small>Presidential</small></a>
+  <a class="ola" href="../estudios/2003.html"><span class="punto"></span><b>2003</b><small>Midterm</small></a>
+  <a class="ola pres" href="../estudios/2006.html"><span class="punto"></span><b>2006</b><small>Presidential</small></a>
+  <a class="ola" href="../estudios/2009.html"><span class="punto"></span><b>2009</b><small>Midterm</small></a>
+  <a class="ola pres" href="../estudios/2012.html"><span class="punto"></span><b>2012</b><small>Presidential</small></a>
+  <a class="ola" href="../estudios/2015.html"><span class="punto"></span><b>2015</b><small>Midterm</small></a>
+  <a class="ola pres panel" href="../estudios/2018.html"><span class="punto"></span><b>2018</b><small>Panel</small></a>
+  <a class="ola" href="../estudios/2021.html"><span class="punto"></span><b>2021</b><small>Midterm</small></a>
+  <a class="ola pres" href="../estudios/2024.html"><span class="punto"></span><b>2024</b><small>Presidential</small></a>
+</div>
+<div class="accesos">
+  <a class="acceso" href="data/index.html"><span class="tag">Data</span><h3>Datasets on Harvard Dataverse</h3><p>Dataset, questionnaire, codebook and methods note for each wave, with DOI.</p></a>
+  <a class="acceso" href="research/index.html"><span class="tag">Research</span><h3>Work using ENEM</h3><p>Academic publications by wave.</p></a>
+  <a class="acceso" href="https://ddjpgarcia.github.io/rENEM/"><span class="tag">R</span><h3>rENEM</h3><p>R package to download, query and weight the data.</p></a>
+  <a class="acceso" href="cite/index.html"><span class="tag">Cite</span><h3>How to cite ENEM</h3><p>General and wave-specific citations.</p></a>
+</div>
+```

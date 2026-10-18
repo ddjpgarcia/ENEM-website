@@ -1,0 +1,50 @@
+# English sub-site. Rendered separately into ../_site/en
+project:
+  type: website
+  output-dir: ../_site/en
+
+lang: en
+
+website:
+  title: "ENEM"
+  description: "Mexican Election Study: post-election surveys since 1997, linked to the Comparative Study of Electoral Systems (CSES)."
+  search: true
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about/index.qmd
+      - text: "Data"
+        menu:
+          - text: "Download data (Dataverse)"
+            href: data/index.qmd
+          - text: "The ten waves"
+            href: studies/index.qmd
+          - text: "Variable finder"
+            href: variables/index.qmd
+      - text: "Research"
+        href: research/index.qmd
+      - text: "How to cite"
+        href: cite/index.qmd
+    right:
+      - text: "ES"
+        href: "../index.html"
+        aria-label: "Versión en español"
+      - icon: twitter-x
+        href: "https://twitter.com/ENEM_Mexico"
+        aria-label: "ENEM on X (Twitter)"
+  page-footer:
+    background: "#0E5A4F"
+    foreground: "#FFFFFF"
+    left: "ENEM · Mexican Election Study · Member of [CSES](https://cses.org/) · [@ENEM_Mexico](https://twitter.com/ENEM_Mexico)"
+    right: "Data on [Harvard Dataverse](https://dataverse.harvard.edu/) · Built with [Quarto](https://quarto.org/)"
+
+format:
+  html:
+    theme:
+      light: [cosmo, ../assets/custom.scss]
+    toc: true
+    title-block-banner: "#0E5A4F"
+    title-block-banner-color: "#FFFFFF"
+    include-after-body: ../assets/dataverse.html

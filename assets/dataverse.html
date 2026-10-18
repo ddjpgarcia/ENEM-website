@@ -1,0 +1,66 @@
+<script>
+/* Integración con Harvard Dataverse.
+   Fuente: data/dataverse.csv (anio,doi) y data/dataverse-coleccion.txt.
+   Con solo pegar el DOI de cada ola, aparecen el botón y la lista de archivos. */
+(function () {
+  const HOST = "https://dataverse.harvard.edu";
+  const TB = "tab" + "le";
+  const en = document.documentElement.lang === "en";
+  const t = en
+    ? { go: "Open in Harvard Dataverse", soon: "Coming soon", wave: "Wave", status: "Data", files: "Files in this dataset", pending: "The dataset for this wave will be published soon on Harvard Dataverse.", coll: "See the full ENEM collection on Harvard Dataverse", page: "Wave page", note: "Downloading opens Harvard Dataverse, which asks for a short guestbook." }
+    : { go: "Abrir en Harvard Dataverse", soon: "Próximamente", wave: "Ola", status: "Datos", files: "Archivos de este dataset", pending: "Los datos de esta ola se publicarán pronto en Harvard Dataverse.", coll: "Ver la colección completa del ENEM en Harvard Dataverse", page: "Página de la ola", note: "La descarga abre Harvard Dataverse, que pide un breve registro." };
+  const meta = document.querySelector('meta[name="quarto:offset"]');
+  let base = meta ? meta.content : "./";
+  if (en) base += "../";
+  const doiUrl = d => d.startsWith("http") ? d : "https://doi.org/" + d.replace(/^doi:/i, "");
+  const pid = d => d.startsWith("http") ? d.replace(/^https?:\/\/doi\.org\//, "doi:") : (d.startsWith("doi:") ? d : "doi:" + d);
+  const kb = b => b > 1e6 ? (b / 1e6).toFixed(1) + " MB" : Math.max(1, Math.round(b / 1e3)) + " KB";
+  const el = (h) => { const x = document.createElement("div"); x.innerHTML = h.trim(); return x.firstChild; };
+
+  async function load() {
+    const txt = await fetch(base + "data/dataverse.csv").then(r => r.text());
+    const rows = txt.trim().split(/\r?\n/).slice(1).map(l => { const [anio, doi] = l.split(","); return { anio: anio.trim(), doi: (doi || "").trim() }; });
+    let coleccion = "";
+    try { coleccion = (await fetch(base + "data/dataverse-coleccion.txt").then(r => r.text())).split(/\r?\n/).filter(l => l.trim() && !l.startsWith("#"))[0] || ""; } catch (e) {}
+    return { rows, coleccion: coleccion.trim() };
+  }
+
+  function boton(doi) {
+    return doi ? `<a class="btn btn-primary dv-btn" href="${doiUrl(doi)}">${t.go} ↗</a>` : `<span class="tag inferido">${t.soon}</span>`;
+  }
+
+  async function archivos(doi, cont) {
+    try {
+      const r = await fetch(`${HOST}/api/datasets/:persistentId/?persistentId=${encodeURIComponent(pid(doi))}`);
+      if (!r.ok) return;
+      const j = await r.json();
+      const files = (j.data && j.data.latestVersion && j.data.latestVersion.files) || [];
+      if (!files.length) return;
+      const lis = files.map(f => `<li><a href="${HOST}/file.xhtml?fileId=${f.dataFile.id}">${f.label}</a> <span class="text-muted">· ${kb(f.dataFile.filesize || 0)}</span></li>`).join("");
+      cont.appendChild(el(`<div class="dv-archivos"><p><strong>${t.files}</strong></p><ul>${lis}</ul></div>`));
+    } catch (e) { /* sin acceso a la API: queda el botón */ }
+  }
+
+  document.addEventListener("DOMContentLoaded", async () => {
+    const tabla = document.getElementById("dv-tabla");
+    const olas = document.querySelectorAll(".dv-ola");
+    const col = document.getElementById("dv-coleccion");
+    if (!tabla && !olas.length) return;
+    let d;
+    try { d = await load(); } catch (e) { if (tabla) tabla.textContent = ""; return; }
+    if (tabla) {
+      const pre = en ? base + "estudios/" : base + "estudios/";
+      tabla.innerHTML = `<div class="table-responsive"><${TB} class="table"><thead><tr><th>${t.wave}</th><th>DOI</th><th>${t.status}</th></tr></thead><tbody>` +
+        d.rows.map(r => `<tr><td><a href="${pre}${r.anio}.html"><strong>${r.anio}</strong></a></td><td>${r.doi ? `<code>${r.doi.replace(/^https?:\/\/doi\.org\//, "")}</code>` : "—"}</td><td>${boton(r.doi)}</td></tr>`).join("") +
+        `</tbody></${TB}></div><p class="text-muted small">${t.note}</p>`;
+    }
+    if (col && d.coleccion) col.innerHTML = `<a class="btn btn-outline-primary" href="${d.coleccion}">${t.coll} ↗</a>`;
+    olas.forEach(o => {
+      const r = d.rows.find(x => x.anio === o.dataset.anio);
+      if (!r || !r.doi) { o.innerHTML = `<p>${t.pending}</p>` + boton(""); return; }
+      o.innerHTML = `<p>DOI: <a href="${doiUrl(r.doi)}"><code>${r.doi.replace(/^https?:\/\/doi\.org\//, "")}</code></a></p>` + boton(r.doi) + `<p class="text-muted small mt-2">${t.note}</p>`;
+      archivos(r.doi, o);
+    });
+  });
+})();
+</script>

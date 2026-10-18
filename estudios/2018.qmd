@@ -1,0 +1,26 @@
+---
+title: "ENEM 2018"
+subtitle: "Elección presidencial · Panel, 4 mediciones · CSES M5"
+---
+
+::: {.callout-note}
+Ola panel con cuatro mediciones (antes y después de la elección).
+:::
+
+## Datos y documentación
+
+::: {.dv-ola data-anio="2018"}
+:::
+
+## Cómo citar esta ola
+
+::: {.cita}
+Beltrán, Ulises, Sandra Ley y Rodrigo Castro Cornejo (2020), Estudio Nacional Electoral de México (CIDE-CSES) 2018, Ciudad de México: Centro de Investigación y Docencia Económicas.
+:::
+
+## Desde R
+
+```r
+rENEM::enem_design(2018)
+datos <- rENEM::enem_download(2018, format = "csv")
+```

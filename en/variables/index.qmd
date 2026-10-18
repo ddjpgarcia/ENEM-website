@@ -1,0 +1,10 @@
+---
+title: "Variable finder"
+---
+
+```{ojs}
+//| echo: false
+vars = FileAttachment("variables.csv").csv()
+viewof q = Inputs.search(vars, {label: "Search"})
+Inputs.table(q, {columns: ["variable", "label_en", "tema", "cobertura"], header: {variable: "Variable", label_en: "Label", tema: "Topic (ES)", cobertura: "Coverage"}})
+```

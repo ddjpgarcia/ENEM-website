@@ -1,0 +1,22 @@
+---
+title: "ENEM 2012"
+subtitle: "Elección presidencial · Transversal · CSES M4"
+---
+
+## Datos y documentación
+
+::: {.dv-ola data-anio="2012"}
+:::
+
+## Cómo citar esta ola
+
+::: {.cita}
+Beltrán, Ulises y Rosario Aguilar (2012), Estudio Nacional Electoral de México (CIDE-CSES) 2012, Ciudad de México: Centro de Investigación y Docencia Económicas.
+:::
+
+## Desde R
+
+```r
+rENEM::enem_design(2012)
+datos <- rENEM::enem_download(2012, format = "csv")
+```

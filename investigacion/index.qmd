@@ -1,0 +1,79 @@
+---
+title: "Investigación"
+description: "Artículos y capítulos académicos que usan los datos del Estudio Nacional Electoral de México."
+---
+
+A la fecha, los estudios nacionales electorales CIDE-CSES, iniciados en 1997 constituyen ya un patrimonio de información ininterrumpida de investigación sobre el comportamiento de los votantes de un enorme valor que permite estudios en la dimensión histórica de la gran transformación histórica del país, así como de comparación internacional.
+
+En esta sección se enlistan algunos de los artículos y capítulos académicos que han usado el gran acervo de datos del Estudio Nacional Electoral de México (ENEM):
+
+::: {.callout-note}
+¿Publicaste un trabajo con datos del ENEM? Escríbenos para agregarlo a esta lista.
+:::
+
+## ENEM 2024 {#enem-2024}
+
+- Aguilar, A. A. A., Cornejo, R. C., & Monsiváis-Carrillo, A. (2025). [Is Mexico at the gates of authoritarianism?](https://muse.jhu.edu/article/947883). *Journal of Democracy*, *36*(1), 50-64.
+
+## ENEM 2021 {#enem-2021}
+
+- Cornejo, R. C. (2026). "You have to hug, nothing is going to happen": Partisan Retrospection, the COVID-19 Pandemic, and the Politics of Death in Mexico. *Latin American Politics and Society*, *68*(1), 22-47.
+
+## ENEM 2018 {#enem-2018}
+
+- Castro Cornejo, R. (2023). [The AMLO voter: affective polarization and the rise of the Left in Mexico](https://journals.sagepub.com/doi/full/10.1177/1866802X221147067). *Journal of Politics in Latin America*, *15*(1), 96-112.
+- Altamirano, Melina and Sandra Ley. 2020. ["The Economy, Security, and Corruption in the 2018 Presidential Election. Campaign issues and electoral preferences in Mexico."](http://www.politicaygobierno.cide.edu/index.php/pyg/article/view/1275) *Política y gobierno.* 27(2). Special volume on the 2018 Mexican Election.
+- Beltrán, Ulises. 2020. ["Traditional Media and Social Networks in the 2018 Presidential Election."](http://www.politicaygobierno.cide.edu/index.php/pyg/article/view/1384) *Política y gobierno.* 27(2). Special volume on the 2018 Mexican Election.
+- Castro Cornejo, Rodrigo, Sandra Ley and Ulises Beltran. 2020. ["Anger, Partisanship, and the Activation of Populist Attitudes in Mexico."](http://www.politicaygobierno.cide.edu/index.php/pyg/article/view/1281) *Política y gobierno.* 27(2). Special volume on the 2018 Mexican Election.
+
+## ENEM 2015 {#enem-2015}
+
+- Beltran, Ulises and Rodrigo Castro Cornejo. 2019. ["Clientelistic Activation of Mexican Voters: Between Vote Buying and Political Communication."](http://www.politicaygobierno.cide.edu/index.php/pyg/article/view/1297) *Política y gobierno. 26(2).*
+- Castro Cornejo, Rodrigo. 2019. ["Partisanship and Question-Wording Effects: Experimental Evidence from Latin America."](https://academic.oup.com/poq/article/83/1/26/5494624?guestAccessKey=db5240b3-1522-40b2-9845-bea90a259da9) *Public Opinion Quarterly*. 83(1):26--45
+- Castro Cornejo, Rodrigo and Beltrán, Ulises. 2020. ["Who Receives Electoral Gifts? It Depends on Question Wording: Experimental Evidence from Mexico."](https://link.springer.com/article/10.1007/s11109-020-09618-1#citeas) *Political Behavior*.
+- Castro Cornejo Rodrigo and Ulises Beltrán. 2020. ["List Experiments, Political Sophistication, and Vote Buying: Experimental Evidence from Mexico."](https://journals.sagepub.com/doi/10.1177/1866802X20937713) *Journal of Politics in Latin America*. 12(2):219-234.
+
+## ENEM 2012 {#enem-2012}
+
+- Castro Cornejo, Rodrigo. 2019. ["Partisanship and Question-Wording Effects: Experimental Evidence from Latin America."](https://academic.oup.com/poq/article/83/1/26/5494624?guestAccessKey=db5240b3-1522-40b2-9845-bea90a259da9) *Public Opinion Quarterly*. 83(1):26--45
+- Larreguy, Horacio, John Marshall, and James Snyder. 2018. ["Leveling the playing field: How campaign advertising can help non-dominant parties."](https://academic.oup.com/jeea/article-abstract/16/6/1812/4964000) *Journal of the European Economic Association*, *16*(6), 1812-1849.
+- Ley, Sandra. 2017. ["Electoral accountability in the midst of criminal violence: Evidence from Mexico."](https://onlinelibrary.wiley.com/doi/abs/10.1111/laps.12008?casa_token=eWvczB_tM7kAAAAA%3AvamiFhEJ2O87-wFBA5NuKznnRWweKdN3LV2a5p0tB8UFlutOV-MDfQC_Jl0WlshP8Zkm3nU25v5hcA) *Latin American Politics and Society*, *59*(1), 3-27.
+
+## ENEM 2009 {#enem-2009}
+
+- Cisneros, Isaac. 2016. [El perfil del votante anulista en la elección federal de 2009 en México: independencia partidista y movilidad cognitiva.](https://revistas.uniandes.edu.co/doi/10.7440/colombiaint86.2016.02) *Colombia Internacional*, (86), 51-80.
+- Kerevel, Yann and Atkeson, Lonna Rae. 2017. ["Campaigns, descriptive representation, quotas and women's political engagement in Mexico."](https://www.tandfonline.com/doi/full/10.1080/21565503.2017.1338592?casa_token=0CPJQqPJzicAAAAA%3Ao1dgFf7Ub107DpGeoYOyRNZlsbM58F5SxCwIGNMT89v0HNGjcrGR2vuDmCEIsTGg-3e6hjIqtuZ0) *Politics, Groups, and Identities*, *5*(3), 454-477.
+- Larreguy, Horacio, John Marshall, and James Snyder. 2018. ["Leveling the playing field: How campaign advertising can help non-dominant parties."](https://academic.oup.com/jeea/article-abstract/16/6/1812/4964000) *Journal of the European Economic Association*, *16*(6), 1812-1849.
+- Larreguy, Horacio, John Marshall, and James Snyder. 2020. ["Publicising malfeasance: When the local media structure facilitates electoral accountability in Mexico."](https://academic.oup.com/ej/article-abstract/130/631/2291/5835240) *The Economic Journal*, *130*(631), 2291-2327.
+
+## ENEM 2006 {#enem-2006}
+
+- Beltrán, Ulises. 2007. "[Contextos institucionales y decisiones individuales: Cuarta Encuesta Nacional CIDE-CSES](http://www.politicaygobierno.cide.edu/index.php/pyg/article/view/247)." *Política y gobierno.* 14(2): 467-490.
+- Beltrán, Ulises. 2009. ["Ideología y polarización en la elección de 2006."](http://www.politicaygobierno.cide.edu/index.php/pyg/article/view/649) *Política y gobierno.* Volumen temático de la elección presidencial de 2006 en México.
+- Beltrán, Ulises. 2009. ["Publicidad y preferencias."](http://www.politicaygobierno.cide.edu/index.php/pyg/article/view/655) *Política y gobierno.* Volumen temático de la elección presidencial de 2006 en México.
+- Bravo, Jorge. 2009. ["Emigración y compromiso político en México."](http://www.politicaygobierno.cide.edu/index.php/pyg/article/view/656) *Política y gobierno.* Volumen temático de la elección presidencial de 2006 en México.
+- Castro Cornejo, Rodrigo. 2019. ["Partisanship and Question-Wording Effects: Experimental Evidence from Latin America."](https://academic.oup.com/poq/article/83/1/26/5494624?guestAccessKey=db5240b3-1522-40b2-9845-bea90a259da9) *Public Opinion Quarterly*. 83(1):26--45
+- Guardado, Jenny. 2009. ["La identidad partidista en México Las dimensiones políticas de la competencia en las elecciones presidenciales de 2000 y 2006."](http://www.politicaygobierno.cide.edu/index.php/pyg/article/view/652) *Política y gobierno.* Volumen temático de la elección presidencial de 2006 en México.
+- Hernández Huerta, Victor. 2017. ["Negative Advertisements and Voter Turnout: Evidence from Mexico."](http://revistas.uniandes.edu.co/doi/pdf/10.7440/colombiaint92.2017.05) *Colombia Internacional*. October 2017 (92): 135-156.
+- Larreguy, Horacio, John Marshall, and James Snyder. 2018. ["Leveling the playing field: How campaign advertising can help non-dominant parties."](https://academic.oup.com/jeea/article-abstract/16/6/1812/4964000) *Journal of the European Economic Association*, *16*(6), 1812-1849.
+- Lehoucq, Fabrice. 2009. ["Ingreso y cálculos electorales en 2006."](http://www.politicaygobierno.cide.edu/index.php/pyg/article/view/651) *Política y gobierno.* Volumen temático de la elección presidencial de 2006 en México.
+- Merolla, J. L., & Zechmeister, E. J. (2009). [*Democracy at Risk*](https://press.uchicago.edu/ucp/books/book/chicago/D/bo7989509.html). 121-156. University of Chicago Press.
+- Merolla, Jennifer L. and Elizabeth J. Zechmeister. 2009. ["Las percepciones de liderazgo en el contexto de las elecciones mexicanas de 2006."](http://www.politicaygobierno.cide.edu/index.php/pyg/article/view/648) *Política y gobierno.* Volumen temático de la elección presidencial de 2006 en México.
+- Perez Dámazo, Ana 2009. ["Consumo de campañas negativas durante la elección presidencial de México en 2006: el papel de la identidad partidista y la sofisticación política."](https://somee.org.mx/rmestudioselectorales/index.php/RMEstudiosElectorales/article/view/62) *Revista Mexicana de Estudios Electorales*, (8), 147-180.
+- Singer, Matthew M. 2009. ["Defendamos lo que hemos logrado" El voto económico en México durante la elección presidencial de 2006."](http://www.politicaygobierno.cide.edu/index.php/pyg/article/view/654) *Política y gobierno.* Volumen temático de la elección presidencial de 2006 en México.
+- Valdivia, Marcos. 2009. ["Dilemas de estrategia: ¿Tierra o aire? Redes sociales y decisión electoral."](http://www.politicaygobierno.cide.edu/index.php/pyg/article/view/653) *Política y gobierno.* Volumen temático de la elección presidencial de 2006 en México.
+
+## ENEM 2003 {#enem-2003}
+
+- Holzner, Claudio. (2007). ["The poverty of democracy: neoliberal reforms and political participation of the poor in Mexico."](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1548-2456.2007.tb00408.x?casa_token=1vxQInp7lXIAAAAA:4I7VdpFjLCfVGBVTg7CqB7ROWIYNUfQVfdvaJnBPKPVzcNlUxPUvIPyH_YwTeMlzjwRmEZRjx7lzmQ) *Latin American Politics and Society*, *49*(2), 87-122.
+- Kerevel, Y. P., & Atkeson, L. R. (2017). ["Campaigns, descriptive representation, quotas and women's political engagement in Mexico."](https://www.tandfonline.com/doi/full/10.1080/21565503.2017.1338592?casa_token=0CPJQqPJzicAAAAA%3Ao1dgFf7Ub107DpGeoYOyRNZlsbM58F5SxCwIGNMT89v0HNGjcrGR2vuDmCEIsTGg-3e6hjIqtuZ0) *Politics, Groups, and Identities*, *5*(3), 454-477.
+- Langston, Joy. 2007. ["Mexico in the Democratic Era" in *Party Politics in New Democracies*](https://oxford.universitypressscholarship.com/view/10.1093/acprof:oso/9780199289653.001.0001/acprof-9780199289653), edited by Paul Webb and Stephen White, Oxford University Press. 243-273.
+
+## ENEM 2000 {#enem-2000}
+
+- Buendía, Jorge y Fernanda Somuano. 2003. ["Participación electoral en nuevas democracias: la elección presidencial de 2000 en México."](http://www.politicaygobierno.cide.edu/index.php/pyg/article/view/342) *Política y gobierno*. 10(2):289-323.
+
+## ENEM 1997 {#enem-1997}
+
+- Buendía, Jorge. 2000. ["El elector mexicano en los noventa: ¿un nuevo tipo de votante?"](http://www.politicaygobierno.cide.edu/index.php/pyg/article/view/415) *Política y gobierno.* 7(2): 317-352.
+- Beltrán, Ulises. 2000. ["Factores de ponderación del voto retrospectivo."](http://www.politicaygobierno.cide.edu/index.php/pyg/article/view/418) *Política y gobierno.* 7(2): 425-442.

@@ -1,0 +1,22 @@
+---
+title: "ENEM 2021"
+subtitle: "Elección intermedia · Transversal · CSES M6 (piloto)"
+---
+
+## Datos y documentación
+
+::: {.dv-ola data-anio="2021"}
+:::
+
+## Cómo citar esta ola
+
+::: {.cita}
+Beltrán, Ulises, Rodrigo Castro Cornejo y Sandra Ley (2021), Estudio Nacional Electoral de México (CIDE-CSES) 2021, Ciudad de México: Centro de Investigación y Docencia Económicas.
+:::
+
+## Desde R
+
+```r
+rENEM::enem_design(2021)
+datos <- rENEM::enem_download(2021, format = "csv")
+```

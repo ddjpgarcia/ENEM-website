@@ -1,0 +1,11 @@
+---
+title: "Términos de uso"
+---
+
+::: {.callout-warning}
+Texto por definir con el equipo ENEM. Debe coincidir con los términos configurados en Harvard Dataverse.
+:::
+
+- Uso académico y no comercial.
+- Citar el ENEM en toda publicación que use los datos ([ver cómo citar](../citar/index.qmd)).
+- No intentar reidentificar a las personas entrevistadas.

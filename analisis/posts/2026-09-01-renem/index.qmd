@@ -1,0 +1,14 @@
+---
+title: "rENEM: el panel armonizado 1997–2024 desde R"
+date: 2026-09-01
+categories: [Software, R]
+description: "Presentación del paquete rENEM."
+---
+
+Entrada de ejemplo. Aquí puede ir un tutorial con código ejecutado; Quarto renderiza R, Python u Observable JS.
+
+```r
+library(rENEM)
+panel <- enem_load(years = c(2018, 2024))
+enem_trend("aprob_pres", years = enem_years()$anio)
+```

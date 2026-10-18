@@ -1,0 +1,19 @@
+---
+title: "Sobre el ENEM"
+description: "Un proyecto de investigación electoral levantado de manera continua en todas las elecciones federales desde 1997."
+---
+
+El Estudio Nacional Electoral de México (ENEM) CIDE–CSES es un proyecto de investigación electoral que se ha levantado de manera continua para todas las elecciones federales desde 1997. El proyecto ha consistido en una encuesta nacional poselectoral que se ha levantado generalmente una semana después de la elección. En algunos años también han incluido otras encuestas preelectorales y estudios regionales diversos. Además de los datos obtenidos en la encuesta, los estudios se acompañan de las descripciones metodológicas y de un reporte macro de los detalles de la elección en cuestión. Una parte central de todos los estudios está vinculada al *Comparative Study of Electoral Systems*, (CSES) el cual es un proyecto colaborativo entre equipos que realizan estudios electorales en el que a la fecha participan más de 55 países alrededor del mundo, del cual se incorpora el módulo diseñado por la comunidad internacional de investigadores. A la fecha se han levantado cinco módulos distintos. El Estudio Nacional Electoral de México también analiza, desde 1997, temas como: la percepción de los votantes sobre los partidos y las élites políticas, percepción sobre la economía, satisfacción con la democracia y la representación, identificación partidista, ideología, información política, eficacia política, compra de voto, entre otros.
+
+El proyecto CIDE-CSES nunca ha sido un proyecto diseñado a partir de la agenda de investigación particular de uno o varios investigadores. Desde su origen se ha propuesto proveer a la comunidad científica con información para el desarrollo de investigaciones propias. El CIDE proporciona la infraestructura necesaria para la conducción del proyecto en una perspectiva continua. Ulises Beltrán, Rodrigo Castro Cornejo y Sandra Ley son los investigadores de la División de Estudios Políticos responsables del proyecto. El ENEM es un bien público. El trabajo de los investigadores responsables del proyecto es crear y desarrollar instrumentos que faciliten el trabajo de la comunidad científica.
+
+## Temas que analiza el ENEM desde 1997
+
+- Percepción de los votantes sobre los partidos y las élites políticas
+- Percepción sobre la economía
+- Satisfacción con la democracia y la representación
+- Identificación partidista e ideología
+- Información política y eficacia política
+- Compra de voto
+
+[El proyecto CIDE-CSES (1997-2024)](proyecto-cide-cses.qmd){.btn .btn-primary} [Equipo](equipo.qmd){.btn .btn-outline-primary}

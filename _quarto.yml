@@ -1,0 +1,79 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "!en/"
+    - "!README.md"
+    - "!docs/"
+  resources:
+    - "explorar/app/**"
+    - "data/*.csv"
+    - "data/*.txt"
+
+lang: es
+
+website:
+  title: "ENEM"
+  description: "Estudio Nacional Electoral de México: encuestas postelectorales desde 1997, vinculadas al Comparative Study of Electoral Systems (CSES)."
+  site-url: "https://ddjpgarcia.github.io/ENEM-website/"
+  search: true
+  page-navigation: true
+  navbar:
+    logo: assets/logo.svg
+    title: false
+    left:
+      - text: "Inicio"
+        href: index.qmd
+      - text: "Sobre el ENEM"
+        menu:
+          - text: "El proyecto"
+            href: sobre/index.qmd
+          - text: "El proyecto CIDE-CSES (1997-2024)"
+            href: sobre/proyecto-cide-cses.qmd
+          - text: "Equipo"
+            href: sobre/equipo.qmd
+          - text: "Preguntas frecuentes"
+            href: sobre/faq.qmd
+      - text: "Datos"
+        menu:
+          - text: "Descargar datos (Dataverse)"
+            href: datos/index.qmd
+          - text: "Las diez olas"
+            href: estudios/index.qmd
+          - text: "Buscador de variables"
+            href: variables/index.qmd
+          - text: "Términos de uso"
+            href: datos/uso.qmd
+      - text: "Explorar"
+        href: explorar/index.qmd
+      - text: "Investigación"
+        href: investigacion/index.qmd
+      - text: "Análisis"
+        href: analisis/index.qmd
+      - text: "Cómo citar"
+        href: citar/index.qmd
+    right:
+      - text: "EN"
+        href: "en/index.html"
+        aria-label: "English version"
+      - icon: twitter-x
+        href: "https://twitter.com/ENEM_Mexico"
+        aria-label: "ENEM en X (Twitter)"
+  page-footer:
+    background: "#0E5A4F"
+    foreground: "#FFFFFF"
+    left: "ENEM · Estudio Nacional Electoral de México · Miembro del [CSES](https://cses.org/) · [@ENEM_Mexico](https://twitter.com/ENEM_Mexico)"
+    right: "Datos en [Harvard Dataverse](https://dataverse.harvard.edu/) · Hecho con [Quarto](https://quarto.org/)"
+
+format:
+  html:
+    theme:
+      light: [cosmo, assets/custom.scss]
+    toc: true
+    toc-title: "En esta página"
+    title-block-banner: "#0E5A4F"
+    title-block-banner-color: "#FFFFFF"
+    smooth-scroll: true
+    link-external-newwindow: true
+    include-after-body: assets/dataverse.html

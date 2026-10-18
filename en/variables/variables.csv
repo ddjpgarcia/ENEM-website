@@ -1,0 +1,14 @@
+variable,etiqueta,label_en,tema,cobertura
+sexo,Sexo de la persona entrevistada,Sex of respondent,Demografía,10/10
+edad,Edad en años cumplidos,Age in years,Demografía,10/10
+pond,Ponderador de diseño,Design weight,Diseño,10/10
+pid,Identificación partidista,Party identification,Actitudes,10/10
+aprob_pres,Aprobación presidencial,Presidential approval,Evaluaciones,POR VERIFICAR
+ideologia,Autoubicación izquierda–derecha,Left–right self-placement,Actitudes,POR VERIFICAR
+satis_dem,Satisfacción con la democracia,Satisfaction with democracy,Actitudes,POR VERIFICAR
+econ_retro,Evaluación retrospectiva de la economía,Retrospective economic evaluation,Evaluaciones,POR VERIFICAR
+voto_dip,Voto reportado para diputados,Reported vote (Chamber),Voto,POR VERIFICAR
+escolaridad,Nivel de escolaridad,Education level,Demografía,POR VERIFICAR
+religion,Religión,Religion,Demografía,POR VERIFICAR
+asist_rel,Asistencia a servicios religiosos,Religious attendance,Demografía,POR VERIFICAR
+conoc_gob,Conocimiento: nombre del gobernador,Knowledge: governor's name,Conocimiento,6/10

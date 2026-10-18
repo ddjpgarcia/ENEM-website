@@ -1,0 +1,22 @@
+---
+title: "ENEM 2024"
+subtitle: "Elección presidencial · Transversal · CSES M5 y M6"
+---
+
+## Datos y documentación
+
+::: {.dv-ola data-anio="2024"}
+:::
+
+## Cómo citar esta ola
+
+::: {.cita}
+Beltrán, Ulises, Rodrigo Castro Cornejo, Melina Altamirano y Matthew Singer (2024), Estudio Nacional Electoral de México (UMASS-CSES) 2024, Lowell: Center for Public Opinion / University of Massachusetts Lowell.
+:::
+
+## Desde R
+
+```r
+rENEM::enem_design(2024)
+datos <- rENEM::enem_download(2024, format = "csv")
+```

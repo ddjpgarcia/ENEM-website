@@ -1,0 +1,45 @@
+---
+title: "El Proyecto CIDE-CSES (1997-2024)"
+description: "Historia de la participación de México en los módulos del Comparative Study of Electoral Systems."
+---
+
+La convocatoria que inició en 1994 el proyecto de colaboración internacional del *Comparative Study of Electoral Systems* (CSES) inicia recordando que "hace más de dos décadas, Stein Rokkan llamó a realizar una agenda de investigación coordinada entre naciones para explorar '...los contextos estructurales de las reacciones de los individuos a la política' (Rokkan 1970, p. 15). El propósito del CSES es cumplir el llamado de Rokkan" (Thomassen, Rosenstone, Klingemann y John Curtice 1994). De la convocatoria original surgió el proyecto *Comparative Study of Electoral Systems* (CSES) como una colaboración multinacional de estudios electorales[^1]. Cada estudio está formado por los resultados de una encuesta de representatividad nacional levantada pocas semanas después de la elección de cada país participante y por una base de datos con información macro sobre las instituciones del país, los partidos participantes y, en general, sobre la elección estudiada.
+
+El proyecto se inició en 1996 y las rondas de colaboración se han organizado en módulos, de los que a la fecha se han concluido cinco.[^2] Cada módulo es diseñado por el Comité de Planeación del CSES, que es un comité internacional de académicos expertos en estudios de opinión y comportamiento electoral. Cada módulo se realiza en torno a una pregunta teóricamente relevante que el Comité de Planeación analiza hasta concretar en un cuestionario específico. A la fecha, el proyecto ha producido cerca de 500 piezas académicas entre libros, artículos y ensayos académicos de varios tipos[^3].
+
+El primer módulo se concentró en la naturaleza de los clivajes y las alineaciones políticas y sociales. En esta primera ronda se levantó información sobre elecciones celebradas entre 1996 y 2001. En los estudios CIDE-CSES para las elecciones de 1997 y 2000 se levantó el módulo 1 del CSES.
+
+El segundo módulo analiza el contraste entre la visión de las elecciones como un mecanismo que asegura un gobierno responsable y aquella que considera a las elecciones como un medio para asegurar que las visiones e intereses de los ciudadanos sean representados adecuadamente. El segundo módulo se inició en el año 2002 y se completó en el año 2005. La encuesta de la elección de 2003 de México incluyó el módulo 2 del CSES.
+
+El tercer módulo indaga sobre la naturaleza de las opciones políticas ofrecidas a los electores y cómo esas alternativas afectan sus decisiones. El tercer módulo se inició en el año 2006 y se completó en el año 2011. El módulo 3 se levantó en las elecciones de 2006 y 2009.
+
+El cuarto módulo se centra en el estudio de la relación entre la selección electoral y la política de distribución y protección social. El objetivo principal es ampliar el conocimiento sobre las preferencias del votante por políticas públicas que afectan el ingreso de las personas y la distribución de la riqueza. El módulo se aplicó entre 2012 y 2015. En México el módulo 4 se levantó en las elecciones de 2012 y 2015.
+
+El estudio de 2015, que incluyó el módulo cuatro, representó un gran avance, pues a la muestra nacional que usualmente se levantaba se añadió una muestra de los estados donde hubo elección de gobernador. Por primera vez, contamos con un estudio de esta magnitud para elecciones locales, el cual se centró en el estudio de clientelismo y compra de voto.
+
+El módulo 5 del CSES se centra en el estudio de las actitudes de los ciudadanos hacia las élites políticas, el gobierno de la mayoría y los grupos fuera de la democracia representativa. Gira de manera importante en la comprensión de lo que la literatura contemporánea identifica como "populismo"[^4]. El módulo se aplicó en el Estudio Nacional Electoral de 2018 y a la fecha ha producido varios artículos sobre la crucial elección presidencial de 2018[^5].
+
+El Estudio Nacional Electoral de 2021 integró el estudio piloto del módulo 6 del CSES que se centra en el estudio de las actitudes de los votantes en un contexto en el cual la democracia representativa está bajo presión. En el Estudio Nacional Electoral de 2024 se incluyeron preguntas tanto del módulo 5 como algunas del módulo 6.
+
+## Módulos CSES por ola del ENEM
+
+| Módulo CSES | Tema | Olas del ENEM |
+|---|---|---|
+| Módulo 1 | Clivajes y alineaciones políticas y sociales | 1997, 2000 |
+| Módulo 2 | Gobierno responsable frente a representación | 2003 |
+| Módulo 3 | Opciones políticas ofrecidas a los electores | 2006, 2009 |
+| Módulo 4 | Selección electoral y política de distribución y protección social | 2012, 2015 |
+| Módulo 5 | Actitudes hacia las élites, el gobierno de la mayoría y los grupos externos ("populismo") | 2018, 2024 |
+| Módulo 6 | Democracia representativa bajo presión | 2021 (piloto), 2024 |
+
+[^1]: Ver, Thomassen, Jacques (chair), Steven J. Rosenstone, Hans-Dieter Klingemann y John Curtice, 1994, "The Comparative Study of Electoral Systems". A Conference Sponsored by The International Committee for Research into Elections and Representative Democracy (ICORE), August 19-20, 1994, Berlin, Germany. Disponible en: <http://cses.org/plancom/module1/stimulus.htm> (consulta: 11 de marzo de 2007).
+
+[^2]: The CSES Integrated Module Dataset (IMD) brings together selected variables from CSES Modules 1-4 into one longitudinal and harmonized dataset. Variables that appear in at least three CSES Modules, up to and including CSES Module 5, are eligible for inclusion in IMD. All polities that have participated in CSES Modules 1-4 are included in the dataset. CSES IMD includes over 281,000 individual-level observations across 174 elections in 55-polities, as well as voter evaluations of over 600 parties and 400 leaders. Among several unique innovations of CSES IMD are the harmonization of party/coalition numerical codes within polities across CSES Modules, the creation of a pre-coded incumbent vote choice variable and political information indexes, extensive macro data over 20-years, and within-dataset labels for all parties/coalitions. <https://cses.org/data-download/cses-integrated-module-dataset-imd/>
+
+    Como se puede apreciar, existe una ligera concentración de países parlamentarios (21), sobre todo de representación proporcional y, en consecuencia, los países presidenciales o semi-presidenciales (17) están subrepresentados.
+
+[^3]: <http://www.cses.org/resources/results/cses_bibliography.pdf>
+
+[^4]: Ver Stimulus paper module 5. <https://cses.org/wp-content/uploads/2019/03/CSES5_ContentSubcommittee_FinalReport.pdf>
+
+[^5]: Artículos publicados en el volumen especial de Política y Gobierno sobre la elección presidencial de 2018 en México (volumen 2, 2020).

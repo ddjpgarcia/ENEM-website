@@ -1,0 +1,11 @@
+---
+title: "The ten ENEM waves"
+---
+
+```{ojs}
+//| echo: false
+olas = FileAttachment("olas.csv").csv({typed: true})
+Inputs.table(olas, {header: {year: "Year", election: "Election", design: "Design", sample_design: "Sample design", institution: "Institution", cses_module: "CSES module"}})
+```
+
+Wave pages (in Spanish): [1997](../../estudios/1997.html) · [2000](../../estudios/2000.html) · [2003](../../estudios/2003.html) · [2006](../../estudios/2006.html) · [2009](../../estudios/2009.html) · [2012](../../estudios/2012.html) · [2015](../../estudios/2015.html) · [2018](../../estudios/2018.html) · [2021](../../estudios/2021.html) · [2024](../../estudios/2024.html)

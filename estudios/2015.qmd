@@ -1,0 +1,26 @@
+---
+title: "ENEM 2015"
+subtitle: "Elección intermedia · Nacional + estados con elección de gobernador · CSES M4"
+---
+
+::: {.callout-note}
+Además de la muestra nacional, incluye una muestra de los estados con elección de gobernador, centrada en clientelismo y compra de voto.
+:::
+
+## Datos y documentación
+
+::: {.dv-ola data-anio="2015"}
+:::
+
+## Cómo citar esta ola
+
+::: {.cita}
+Beltrán, Ulises y Rosario Aguilar (2015), Estudio Nacional Electoral de México (CIDE-CSES) 2015, Ciudad de México: Centro de Investigación y Docencia Económicas.
+:::
+
+## Desde R
+
+```r
+rENEM::enem_design(2015)
+datos <- rENEM::enem_download(2015, format = "csv")
+```

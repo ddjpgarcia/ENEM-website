@@ -1,0 +1,22 @@
+---
+title: "Las diez olas del ENEM"
+description: "Cuestionario, diseño muestral, ponderadores y archivos de cada encuesta."
+---
+
+```{ojs}
+//| echo: false
+olas = FileAttachment("../data/olas.csv").csv({typed: true})
+viewof tipo = Inputs.select(["Todas", "Presidencial", "Intermedia"], {label: "Tipo de elección"})
+viewof diseno = Inputs.select(["Todos", "Oficial", "Inferido"], {label: "Diseño muestral"})
+filtradas = olas.filter(d => (tipo === "Todas" || d.eleccion === tipo) && (diseno === "Todos" || d.diseno === diseno))
+Inputs.table(filtradas, {
+  columns: ["anio", "eleccion", "formato", "diseno", "institucion", "modulo_cses"],
+  header: {anio: "Año", eleccion: "Elección", formato: "Formato", diseno: "Diseño muestral", institucion: "Institución", modulo_cses: "CSES"},
+  format: {anio: d => html`<a href="${d}.html"><b>${d}</b></a>`},
+  rows: 12
+})
+```
+
+"Inferido": diseño reconstruido a partir del cuestionario y los ponderadores; no citar como metodología oficial.
+
+Ver la historia de cada módulo en [El Proyecto CIDE-CSES](../sobre/proyecto-cide-cses.qmd).

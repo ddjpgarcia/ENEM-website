@@ -1,0 +1,48 @@
+---
+title: "Estudio Nacional Electoral de México"
+subtitle: "Encuestas postelectorales · 1997–2024"
+page-layout: full
+toc: false
+listing:
+  id: recientes
+  contents: analisis/posts
+  sort: "date desc"
+  type: table
+  max-items: 3
+  fields: [date, title, categories]
+  date-format: "YYYY"
+  sort-ui: false
+  filter-ui: false
+---
+
+::: {.portada}
+El Estudio Nacional Electoral de México (ENEM-CIDE) publica desde 1997 información sobre el comportamiento del público y de los votantes en las elecciones federales que se celebran cada tres años en México. La información se obtiene por medio de encuestas levantadas con la mayor calidad metodológica. Todos los estudios incluyen un módulo del *Comparative Study of Electoral Systems* (CSES) que lo vincula a una amplia gama de estudios electorales en el mundo. La misión del ENEM es proporcionar información que satisfaga las necesidades de investigadores, profesores, estudiantes, periodistas y cualquier persona interesada en comprender mejor los resultados de cada elección.
+:::
+
+[Descargar datos](datos/index.qmd){.btn .btn-primary} [Sobre el ENEM](sobre/index.qmd){.btn .btn-outline-primary}
+
+```{=html}
+<div class="olas" aria-label="Olas del ENEM">
+  <a class="ola" href="estudios/1997.html"><span class="punto"></span><b>1997</b><small>Intermedia</small></a>
+  <a class="ola pres" href="estudios/2000.html"><span class="punto"></span><b>2000</b><small>Presidencial</small></a>
+  <a class="ola" href="estudios/2003.html"><span class="punto"></span><b>2003</b><small>Intermedia</small></a>
+  <a class="ola pres" href="estudios/2006.html"><span class="punto"></span><b>2006</b><small>Presidencial</small></a>
+  <a class="ola" href="estudios/2009.html"><span class="punto"></span><b>2009</b><small>Intermedia</small></a>
+  <a class="ola pres" href="estudios/2012.html"><span class="punto"></span><b>2012</b><small>Presidencial</small></a>
+  <a class="ola" href="estudios/2015.html"><span class="punto"></span><b>2015</b><small>Intermedia</small></a>
+  <a class="ola pres panel" href="estudios/2018.html"><span class="punto"></span><b>2018</b><small>Panel</small></a>
+  <a class="ola" href="estudios/2021.html"><span class="punto"></span><b>2021</b><small>Intermedia</small></a>
+  <a class="ola pres" href="estudios/2024.html"><span class="punto"></span><b>2024</b><small>Presidencial</small></a>
+</div>
+<div class="accesos">
+  <a class="acceso" href="datos/index.html"><span class="tag">Datos</span><h3>Bases en Harvard Dataverse</h3><p>Base, cuestionario, libro de códigos y nota metodológica de cada ola, con DOI.</p></a>
+  <a class="acceso" href="investigacion/index.html"><span class="tag">Investigación</span><h3>Artículos que usan el ENEM</h3><p>Publicaciones académicas organizadas por ola.</p></a>
+  <a class="acceso" href="https://ddjpgarcia.github.io/rENEM/"><span class="tag">R</span><h3>rENEM</h3><p>Paquete de R para descargar, consultar y ponderar los datos.</p></a>
+  <a class="acceso" href="citar/index.html"><span class="tag">Citar</span><h3>Cómo citar el ENEM</h3><p>Cita general y cita por año, en español e inglés.</p></a>
+</div>
+```
+
+## Análisis recientes
+
+::: {#recientes}
+:::
