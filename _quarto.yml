@@ -20,6 +20,7 @@ website:
   search: true
   page-navigation: true
   navbar:
+    collapse-below: xl
     logo: assets/logo.svg
     title: false
     left:
@@ -49,6 +50,8 @@ website:
         href: explorar/index.qmd
       - text: "Investigación"
         href: investigacion/index.qmd
+      - text: "The Changing Mexican Voter"
+        href: libro/index.qmd
       - text: "Análisis"
         href: analisis/index.qmd
       - text: "Cómo citar"

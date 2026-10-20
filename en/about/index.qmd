@@ -6,38 +6,44 @@ Since 1997, the Mexican National Electoral Study (ENEM-CIDE) has published infor
 
 The full history of the CIDE-CSES project and its CSES modules is available [in Spanish](../../sobre/proyecto-cide-cses.html).
 
-## Team
+## Current team
 
 ::: {.equipo}
 
 ::: {.persona}
 ![](../../assets/equipo/beltran.jpg){fig-alt="Foto de Ulises Beltrán"}
 
-**Ulises Beltrán**<br>CIDE · BGC<br>[bgc.com.mx](https://www.bgc.com.mx/)
+**Ulises Beltrán**<br>BGC<br>[bgc.com.mx](https://www.bgc.com.mx/)
 :::
 
 ::: {.persona}
 ![](../../assets/equipo/castro.jpg){fig-alt="Foto de Rodrigo Castro Cornejo"}
 
-**Rodrigo Castro Cornejo**<br>UMass Lowell · Center for Public Opinion<br>[Sitio personal](https://www.rodrigocastrocornejo.com/)
-:::
-
-::: {.persona}
-![](../../assets/equipo/ley.jpg){fig-alt="Foto de Sandra Ley"}
-
-**Sandra Ley**<br>Tecnológico de Monterrey · School of Social Sciences and Government<br>[Personal website](https://sandraley.net/)
+**Rodrigo Castro Cornejo**<br>UMass Lowell · Center for Public Opinion<br>[Personal website](https://www.rodrigocastrocornejo.com/)
 :::
 
 ::: {.persona}
 ![](../../assets/equipo/altamirano.jpg){fig-alt="Foto de Melina Altamirano"}
 
-**Melina Altamirano**<br>El Colegio de México · Centro de Estudios Internacionales<br>[Sitio personal](https://melinaaltamirano.com/)
+**Melina Altamirano**<br>El Colegio de México · Center for International Studies<br>[Personal website](https://melinaaltamirano.com/)
 :::
 
 ::: {.persona}
 ![](../../assets/equipo/singer.jpg){fig-alt="Foto de Matthew Singer"}
 
-**Matthew Singer**<br>University of Connecticut · Ciencia Política<br>[Perfil UConn](https://polisci.uconn.edu/person/matthew-singer/)
+**Matthew Singer**<br>University of Connecticut · Political Science<br>[UConn profile](https://polisci.uconn.edu/person/matthew-singer/)
+:::
+
+:::
+
+## Past participants
+
+::: {.equipo}
+
+::: {.persona}
+![](../../assets/equipo/ley.jpg){fig-alt="Foto de Sandra Ley"}
+
+**Sandra Ley**<br>Tecnológico de Monterrey · School of Social Sciences and Government<br>*Took part in the 2018 and 2021 editions*<br>[Personal website](https://sandraley.net/)
 :::
 
 :::

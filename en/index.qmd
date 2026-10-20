@@ -31,3 +31,35 @@ Since 1997, the Mexican National Electoral Study (ENEM-CIDE) has published infor
   <a class="acceso" href="cite/index.html"><span class="tag">Cite</span><h3>How to cite ENEM</h3><p>General and wave-specific citations.</p></a>
 </div>
 ```
+
+## ENEM team
+
+::: {.equipo .equipo-portada}
+
+::: {.persona}
+![](../assets/equipo/beltran.jpg){fig-alt="Foto de Ulises Beltrán"}
+
+**Ulises Beltrán**<br>BGC<br>[bgc.com.mx](https://www.bgc.com.mx/)
+:::
+
+::: {.persona}
+![](../assets/equipo/castro.jpg){fig-alt="Foto de Rodrigo Castro Cornejo"}
+
+**Rodrigo Castro Cornejo**<br>UMass Lowell · Center for Public Opinion<br>[Personal website](https://www.rodrigocastrocornejo.com/)
+:::
+
+::: {.persona}
+![](../assets/equipo/altamirano.jpg){fig-alt="Foto de Melina Altamirano"}
+
+**Melina Altamirano**<br>El Colegio de México · Center for International Studies<br>[Personal website](https://melinaaltamirano.com/)
+:::
+
+::: {.persona}
+![](../assets/equipo/singer.jpg){fig-alt="Foto de Matthew Singer"}
+
+**Matthew Singer**<br>University of Connecticut · Political Science<br>[UConn profile](https://polisci.uconn.edu/person/matthew-singer/)
+:::
+
+:::
+
+[Meet the team](about/index.qmd){.btn .btn-outline-primary}

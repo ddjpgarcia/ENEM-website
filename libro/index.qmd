@@ -1,0 +1,10 @@
+---
+title: "The Changing Mexican Voter"
+subtitle: "Proyecto de libro"
+---
+
+::: {.callout-note appearance="simple"}
+## Próximamente
+:::
+
+*The Changing Mexican Voter* es un proyecto de libro de Ulises Beltrán, Rodrigo Castro Cornejo, Melina Altamirano y Matthew Singer, basado en los datos del Estudio Nacional Electoral de México. Actualmente se encuentra en proceso de dictamen editorial.

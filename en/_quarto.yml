@@ -10,6 +10,7 @@ website:
   description: "Mexican Election Study: post-election surveys since 1997, linked to the Comparative Study of Electoral Systems (CSES)."
   search: true
   navbar:
+    collapse-below: xl
     left:
       - text: "Home"
         href: index.qmd
@@ -25,6 +26,8 @@ website:
             href: variables/index.qmd
       - text: "Research"
         href: research/index.qmd
+      - text: "The Changing Mexican Voter"
+        href: book/index.qmd
       - text: "How to cite"
         href: cite/index.qmd
     right:
