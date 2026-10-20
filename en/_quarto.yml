@@ -47,7 +47,9 @@ format:
   html:
     theme:
       light: [cosmo, ../assets/custom.scss]
+      dark: [cosmo, ../assets/custom.scss, ../assets/custom-dark.scss]
     toc: true
+    respect-user-color-scheme: true
     title-block-banner: "#0E5A4F"
     title-block-banner-color: "#FFFFFF"
     include-after-body: ../assets/dataverse.html

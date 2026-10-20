@@ -1,15 +1,20 @@
 /*-- scss:defaults --*/
-// Paleta: blanco de fondo, negro para texto sobre blanco,
+// Paleta clara: blanco de fondo, negro para texto sobre blanco,
 // verde para banners y secciones (con texto blanco).
-$verde:     #0E5A4F;
-$primary:   $verde;
-$secondary: #3F3F3F;
-$accent:    #000000;
-$body-bg:   #FFFFFF;
-$body-color:#000000;
-$link-color:#000000;
-$navbar-bg: #FFFFFF;
-$navbar-fg: #16211F;
+// La versión oscura redefine estos valores en custom-dark.scss.
+$verde:      #0E5A4F !default;
+$primary:    $verde !default;
+$secondary:  #3F3F3F !default;
+$body-bg:    #FFFFFF !default;
+$body-color: #000000 !default;
+$link-color: #000000 !default;
+$navbar-bg:  #FFFFFF !default;
+$navbar-fg:  #16211F !default;
+$superficie:   #FFFFFF !default;   // tarjetas
+$superficie-2: #F2F4F3 !default;   // etiquetas, citas
+$linea:        #D9DCDA !default;   // bordes
+$aviso-bg:     #FBEFD6 !default;
+$aviso-fg:     #9A6400 !default;
 $font-family-sans-serif: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
 $headings-font-family: "Source Serif 4", Georgia, serif;
 $font-family-monospace: "IBM Plex Mono", ui-monospace, Menlo, monospace;
@@ -17,43 +22,43 @@ $font-family-monospace: "IBM Plex Mono", ui-monospace, Menlo, monospace;
 /*-- scss:rules --*/
 @import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Public+Sans:wght@400;600&family=IBM+Plex+Mono&display=swap");
 
-.navbar { border-bottom: 1px solid #D9DCDA; }
+.navbar { border-bottom: 1px solid $linea; }
 .navbar .nav-link.active { background: $verde; color: #fff !important; border-radius: 6px; }
 a { text-underline-offset: 3px; }
-.btn-outline-primary { color: #000; border-color: #000; }
-.btn-outline-primary:hover { background: #000; color: #fff; }
+.btn-outline-primary { color: $body-color; border-color: $body-color; }
+.btn-outline-primary:hover { background: $body-color; color: $body-bg; border-color: $body-color; }
 // Banner verde de título (activado en _quarto.yml con title-block-banner)
 .quarto-title-banner { padding-block: 3rem; }
 .quarto-title-banner a { color: #fff; }
-.eyebrow { font-size: .75rem; letter-spacing: .12em; text-transform: uppercase; color: #000; font-weight: 700; }
+.eyebrow { font-size: .75rem; letter-spacing: .12em; text-transform: uppercase; color: $body-color; font-weight: 700; }
 .lede { font-size: 1.2rem; color: $secondary; max-width: 62ch; }
 
 // Línea de tiempo de olas
 .olas { display: grid; grid-template-columns: repeat(10, minmax(64px, 1fr)); overflow-x: auto;
-  background: #fff; border: 1px solid #D9DCDA; border-radius: 10px; padding: 1.25rem 1rem; margin: 1.5rem 0; }
+  background: $superficie; border: 1px solid $linea; border-radius: 10px; padding: 1.25rem 1rem; margin: 1.5rem 0; }
 .ola { display: grid; justify-items: center; gap: .35rem; text-decoration: none; color: $body-color; position: relative; }
-.ola::before { content: ""; position: absolute; top: 9px; left: 0; right: 0; height: 2px; background: #D9DCDA; }
+.ola::before { content: ""; position: absolute; top: 9px; left: 0; right: 0; height: 2px; background: $linea; }
 .ola:first-child::before { left: 50%; } .ola:last-child::before { right: 50%; }
-.ola .punto { width: 18px; height: 18px; border-radius: 50%; border: 3px solid $primary; background: #fff; z-index: 1; }
+.ola .punto { width: 18px; height: 18px; border-radius: 50%; border: 3px solid $primary; background: $body-bg; z-index: 1; }
 .ola.pres .punto { background: $primary; }
-.ola.panel .punto { background: #000; border-color: #000; }
+.ola.panel .punto { background: $body-color; border-color: $body-color; }
 .ola b { font-family: $headings-font-family; font-size: 1.2rem; }
 .ola small { font-size: .7rem; text-transform: uppercase; letter-spacing: .05em; color: $secondary; }
 
 // Tarjetas de acceso
 .accesos { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
-.acceso { background: #fff; border: 1px solid #D9DCDA; border-radius: 10px; padding: 1.1rem; text-decoration: none; color: $body-color; }
+.acceso { background: $superficie; border: 1px solid $linea; border-radius: 10px; padding: 1.1rem; text-decoration: none; color: $body-color; }
 .acceso:hover { border-color: $primary; }
 .acceso h3 { margin-top: .25rem; font-size: 1.1rem; }
 .acceso p { color: $secondary; font-size: .95rem; margin: 0; }
 .tag { display: inline-block; font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
-  padding: 2px 8px; border-radius: 999px; background: #F2F4F3; color: #000; }
-.tag.inferido { background: #FBEFD6; color: #9A6400; }
+  padding: 2px 8px; border-radius: 999px; background: $superficie-2; color: $body-color; }
+.tag.inferido { background: $aviso-bg; color: $aviso-fg; }
 
 // Equipo
 .equipo { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(360px, 100%), 1fr)); gap: 1rem; margin: 1.5rem 0; }
 .persona { display: grid; grid-template-columns: 96px 1fr; gap: 1rem; align-items: start;
-  background: #fff; border: 1px solid #D9DCDA; border-radius: 10px; padding: 1rem; }
+  background: $superficie; border: 1px solid $linea; border-radius: 10px; padding: 1rem; }
 .persona p { margin: 0; }
 .persona img { width: 96px; height: 96px; border-radius: 50%; object-fit: cover; }
 .persona .quarto-figure, .persona figure { margin: 0; }
@@ -62,7 +67,7 @@ a { text-underline-offset: 3px; }
 .portada { font-size: 1.15rem; max-width: 70ch; margin-bottom: 1.25rem; }
 
 // Citas
-.cita { background: #F2F4F3; border-left: 4px solid $verde; padding: .9rem 1.1rem; border-radius: 6px; margin: .75rem 0 1.25rem; font-family: $headings-font-family; }
+.cita { background: $superficie-2; border-left: 4px solid $verde; padding: .9rem 1.1rem; border-radius: 6px; margin: .75rem 0 1.25rem; font-family: $headings-font-family; }
 .cita p { margin: 0; }
 
 // Avatar sin foto

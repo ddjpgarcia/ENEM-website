@@ -1,0 +1,27 @@
+/*-- scss:defaults --*/
+// Versión oscura del sitio ENEM.
+// Se carga después de custom.scss y sustituye sus colores base.
+$verde:        #0E5A4F;
+$primary:      #0E5A4F;
+$secondary:    #A9B5B1;
+$body-bg:      #0F1513;
+$body-color:   #E6ECE9;
+$link-color:   #E6ECE9;
+$navbar-bg:    #0F1513;
+$navbar-fg:    #E6ECE9;
+$superficie:   #161E1B;
+$superficie-2: #1D2824;
+$linea:        #2C3934;
+$aviso-bg:     #3A2C12;
+$aviso-fg:     #F0C46A;
+$input-bg:     #161E1B;
+$input-color:  #E6ECE9;
+$input-border-color: #2C3934;
+$table-color:  #E6ECE9;
+$code-bg:      #1D2824;
+$code-color:   #F0A3C0;
+
+/*-- scss:rules --*/
+// En modo oscuro las fotos y el logo se ven sobre fondo oscuro
+.persona img { box-shadow: 0 0 0 1px $linea; }
+.navbar-logo { filter: brightness(0) invert(1); }
